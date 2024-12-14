@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+  background: rgba(114, 143, 206);
+
+}
+
+h1{
+  text-align: center;
+  color: #f0f0f0;
+  font-family: monospace;
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+.container{
+margin-top:  2rem;
+}
+
+.outPut{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.notes{
+  height: 15rem;
+  width: 17rem;
+  background: #f0f0f0;
+  margin: 1rem 0rem 1rem 2.5rem;
+
+}
+
+.notes p{
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-family: monospace;
+  color:  rgba(114, 143, 206);
+}
+
+.notes .Add{
+  color:  rgba(114, 143, 206);
+  height: 5rem;
+  width: 5rem;
+  margin-top: 4rem;
+  margin-left: 6rem;
+  border-radius: 50%;
+  font-size: 3rem;
+  border: 2px dashed rgba(114, 143, 206);
+
+
+}
+
+textarea{
+
+  height: 13.5rem;
+  width: 17rem;
+  overflow: hidden;
+  resize: none;
+  border: none;
+  padding: 1rem;
+  font-size: larger;
+
+  background: #f0f0f0;
+
+}
+textarea:focus {
+   outline: none; /* Removes the focus outline */
+   border: none;  /* Optionally remove the border on focus */
+}
+
+a{
+  color: #d86e64;
+ margin-left: 1rem;
+  text-align: center;
+  align-content: center;
+
+
+}
+
+.first{
+  margin-left: 6rem;
+}
+
+
+@media (max-width:668px) {
+  .outPut{
+    justify-content: center;
+  }
+
+
+}
+
+@media (max-width:543px){
+  .notes{
+    margin: 1rem 0;
+  }
+}
+
